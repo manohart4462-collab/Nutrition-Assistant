@@ -9,4 +9,5 @@ The architecture documents included in this folder are:
 - Roles and Responsibilities
 - User Flow
 - MVC Pattern
+
 These documents provide a clear understanding of the system structure and data flow within the application.
