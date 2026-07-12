@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif; /* Standard clean font */
+}
+
+body {
+  background-color: #f8f9fa; /* The light grey background from your image */
+}
+
+.app-container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px 30px;
+  margin-left: 260px; /* Leaves room for the fixed sidebar */
+}

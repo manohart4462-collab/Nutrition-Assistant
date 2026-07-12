@@ -1,0 +1,110 @@
+.landing-wrapper {
+  width: 100%;
+  min-height: 100vh;
+  background: var(--bg-gradient);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.welcome-card {
+  background-color: #ffffff;
+  border-radius: 24px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  width: 100%;
+  max-width: 550px;
+  padding: 40px 30px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo-container {
+  margin-bottom: 15px;
+}
+
+.apple-logo {
+  width: 55px;
+  height: 55px;
+  color: #27ae60;
+}
+
+.welcome-title {
+  font-size: 2.2rem;
+  color: #1e272e;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.highlight-text {
+  color: #2ecc71;
+}
+
+.welcome-subtitle {
+  font-size: 1.05rem;
+  color: #57606f;
+  line-height: 1.5;
+  margin-bottom: 30px;
+  max-width: 440px;
+}
+
+.features-row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 460px;
+  margin-bottom: 35px;
+}
+
+.feature-item {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #2f3542;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.icon {
+  font-size: 1.1rem;
+}
+
+.green-icon { color: #2ecc71; }
+.pink-icon { color: #ff6b81; }
+.red-icon { color: #ff4757; }
+
+.buttons-row {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 35px;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 30px;
+  cursor: pointer;
+  min-width: 130px;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  opacity: 0.9;
+}
+
+.btn-login {
+  background-color: #1e272e;
+  color: #ffffff;
+}
+
+.btn-signup {
+  background-color: #d63031;
+  color: #ffffff;
+}

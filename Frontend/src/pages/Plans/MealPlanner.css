@@ -1,0 +1,26 @@
+.mp-container { padding: 10px 20px; display: flex; flex-direction: column; gap: 20px; }
+.mp-header-row { display: flex; justify-content: space-between; align-items: center; }
+.mp-header-row h2 { font-size: 22px; color: #222; margin-bottom: 4px; }
+.mp-header-row p { font-size: 13px; color: #888; }
+.mp-add-btn { background: #4caf50; color: white; border: none; padding: 10px 18px; border-radius: 8px; display: flex; align-items: center; gap: 8px; cursor: pointer; font-weight: 500; }
+.mp-search-bar { display: flex; align-items: center; background: #fff; padding: 12px 15px; border-radius: 10px; border: 1px solid #eee; width: 300px; gap: 10px; }
+.mp-search-bar input { border: none; outline: none; width: 100%; font-size: 14px; }
+.mp-list { display: flex; flex-direction: column; gap: 12px; }
+.mp-card { display: flex; align-items: center; background: #fff; padding: 15px; border-radius: 12px; border: 1px solid #f0f0f0; gap: 20px; }
+.mp-icon { width: 55px; height: 55px; border-radius: 12px; display: flex; align-items: center; justify-content: center; font-size: 28px; }
+.mp-details { flex: 1; }
+.mp-details h4 { font-size: 15px; color: #222; margin-bottom: 2px; }
+.mp-time { font-size: 11px; color: #888; display: block; margin-bottom: 5px; }
+.mp-details p { font-size: 13px; color: #666; }
+.mp-kcal { font-size: 14px; color: #4caf50; }
+.mp-kcal strong { font-size: 18px; color: #222; }
+.mp-actions { display: flex; gap: 10px; margin-left: 20px; }
+.mp-actions button { background: none; border: 1px solid #eee; padding: 8px; border-radius: 6px; cursor: pointer; font-size: 14px; }
+.mp-actions .edit { color: #4caf50; border-color: #dcedc8; }
+.mp-actions .delete { color: #f44336; border-color: #ffcdd2; }
+.mp-summary { background: #f0fdf4; padding: 20px; border-radius: 12px; border: 1px solid #dcedc8; margin-top: 10px; }
+.mp-summary h3 { font-size: 15px; color: #2e7d32; margin-bottom: 15px; }
+.mp-summary-grid { display: flex; justify-content: space-between; }
+.mp-summary-grid div { display: flex; flex-direction: column; align-items: center; }
+.mp-summary-grid span { font-size: 12px; color: #555; margin-bottom: 5px; }
+.mp-summary-grid strong { font-size: 20px; color: #111; }

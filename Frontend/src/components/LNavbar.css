@@ -1,0 +1,50 @@
+.lnavbar {
+  width: 260px;
+  height: 100vh;
+  background-color: #ffffff;
+  position: fixed;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid #f0f0f0;
+}
+
+.lnavbar-logo { display: flex; align-items: center; gap: 10px; margin-bottom: 40px; }
+.logo-text h2 { font-size: 16px; margin: 0; }
+.logo-text p { font-size: 10px; color: #888; margin: 0; }
+
+.lnavbar-links { list-style: none; flex: 1; padding: 0; }
+.lnavbar-links li {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 12px 15px;
+  margin-bottom: 8px;
+  color: #555;
+  font-size: 14px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.lnavbar-links li:hover { background-color: #f9f9f9; }
+.lnavbar-links li.active { background-color: #f0fdf4; color: #4caf50; font-weight: 600; }
+.nav-icon { display: flex; align-items: center; font-size: 18px; }
+
+/* AI Card */
+.lnavbar-ai-card {
+  background-color: #fcfcfc;
+  border: 1px solid #f0f0f0;
+  border-radius: 16px;
+  padding: 20px;
+  text-align: center;
+}
+.ai-stars { color: #4caf50; margin-bottom: 5px; }
+.ai-dynamic-text { font-size: 11px; color: #777; margin: 10px 0; min-height: 40px; }
+.ai-btn {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 12px;
+  cursor: pointer;
+}
